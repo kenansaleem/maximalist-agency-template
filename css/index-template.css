@@ -56,6 +56,13 @@ body::before {
     .services-grid {
         grid-template-columns: 1fr;
         padding: 0 20px;
+        gap: 20px;
+    }
+    .service-card {
+        padding: 30px;
+    }
+    .service-card h5 {
+        font-size: 1.5rem;
     }
     .service-card.one { margin-top: 0; }
     .service-card.three { margin-top: 0; }
@@ -66,26 +73,33 @@ body::before {
         display: flex;
     }
     .nav-links {
-        position: fixed;
-        top: 0;
+        position: absolute;
+        top: 100%;
         left: 0;
         width: 100%;
-        height: 100vh;
-        background: var(--bg);
+        height: auto;
+        background: rgba(9, 9, 11, 0.95);
+        backdrop-filter: blur(15px);
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-        transform: translateY(-100%);
-        transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 40px;
+        gap: 25px;
+        transform: translateY(-20px);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
         z-index: 1050;
+        border-bottom: 2px solid var(--accent);
     }
     .nav-links a {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         font-family: var(--font-heading);
     }
     #menu-toggle:checked ~ .nav-wrapper .nav-links {
         transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
     }
     /* Hamburger to X */
     #menu-toggle:checked ~ .nav-wrapper .three-lines .line:nth-child(1) {

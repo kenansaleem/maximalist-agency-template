@@ -1,0 +1,79 @@
+- generic [active] [ref=e1]:
+  - text: z
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - link "Leon Logo" [ref=e6] [cursor=pointer]:
+          - /url: "#"
+          - img "Leon Logo" [ref=e7]
+        - navigation [ref=e8]
+    - generic [ref=e9]:
+      - generic [ref=e10]: CREATIVE AGENCY
+      - generic [ref=e12]:
+        - heading "Hello There! Hello There! Hello There!" [level=1] [ref=e13]
+        - generic [ref=e14]: We Are Leon Super Creative & Maximal
+        - generic [ref=e15]: Building the future of digital aesthetics
+    - generic [ref=e17]: SERVICES • SERVICES • SERVICES • SERVICES • SERVICES • SERVICES • SERVICES • SERVICES •
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: 
+        - heading "Graphic Design" [level=5] [ref=e23]
+        - paragraph [ref=e24]: Visual communication using typography, photography, and illustration.
+      - generic [ref=e25]:
+        - generic [ref=e26]: 
+        - heading "Web Design" [level=5] [ref=e27]
+        - paragraph [ref=e28]: Production and maintenance of high-end digital experiences.
+      - generic [ref=e29]:
+        - generic [ref=e30]: 
+        - heading "UI & UX" [level=5] [ref=e31]
+        - paragraph [ref=e32]: Enhancing satisfaction by improving usability and pleasure.
+      - generic [ref=e33]:
+        - generic [ref=e34]: 
+        - heading "Development" [level=5] [ref=e35]
+        - paragraph [ref=e36]: Clean, performant, and scalable code for the modern web.
+    - generic [ref=e38]: PORTFOLIO • PORTFOLIO • PORTFOLIO • PORTFOLIO • PORTFOLIO • PORTFOLIO • PORTFOLIO • PORTFOLIO •
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - img "Project 1" [ref=e43]
+        - generic [ref=e44]:
+          - heading "EXPERIMENTAL LAB" [level=5] [ref=e45]
+          - paragraph [ref=e46]: Visual branding and digital identity
+      - generic [ref=e47]:
+        - img "Project 2" [ref=e48]
+        - generic [ref=e49]:
+          - heading "NEON FUTURE" [level=5] [ref=e50]
+          - paragraph [ref=e51]: Interactive web experience
+      - generic [ref=e52]:
+        - img "Project 3" [ref=e53]
+        - generic [ref=e54]:
+          - heading "URBAN CHAOS" [level=5] [ref=e55]
+          - paragraph [ref=e56]: Editorial design & photography
+    - generic [ref=e58]: ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT •
+    - generic [ref=e61]:
+      - img "About Leon" [ref=e64]
+      - generic [ref=e65]:
+        - heading "WE BREAK THE RULES TO BUILD THE FUTURE." [level=2] [ref=e66]
+        - paragraph [ref=e68]: Leon is a high-octane creative agency focused on pushing the boundaries of digital and physical design. We don't follow trends; we set them with bold colors, aggressive typography, and unforgettable experiences.
+    - generic [ref=e70]: CONTACT • CONTACT • CONTACT • CONTACT • CONTACT • CONTACT • CONTACT • CONTACT •
+    - contentinfo [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - heading "READY TO START?" [level=3] [ref=e74]
+          - link "LEONAGENCY@MAIL.COM" [ref=e75] [cursor=pointer]:
+            - /url: mailto:leonagency@mail.com
+          - generic [ref=e76]:
+            - paragraph [ref=e77]: "FIND US ON SOCIAL NETWORKS:"
+            - generic [ref=e78]:
+              - link "" [ref=e79] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e80]: 
+              - link "" [ref=e81] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e82]: 
+              - link "" [ref=e83] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e84]: 
+              - link "" [ref=e85] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e86]: 
+        - paragraph [ref=e88]: © 2026 LEON AGENCY. MAXIMALIST REDESIGN.
